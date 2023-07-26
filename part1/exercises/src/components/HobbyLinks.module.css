@@ -1,3 +1,4 @@
 .border {
-    border: #6d6875;
+    border: black;
+    border-style: dashed;
 }
