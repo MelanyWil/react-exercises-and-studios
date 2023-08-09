@@ -4,7 +4,8 @@ import oceans from './oceans.json'
 
 const listItem = oceans.map(ocean => {
    return (
-      <div key={ocean.id}>
+      <div key={ocean.id} className={ocean.fishCheck === 'true' ? "isAFish" : "profile"}>
+         <h1>{ocean.name}</h1>
          <img src={ocean.image} alt={ocean.name} className="img" /> 
       </div>
    );
