@@ -1,8 +1,10 @@
-import './styles.css';
+import styles from './styles.css';
 
 function Banner(){
    return(
-      <h1>Hello, World!</h1>
+      <header className = {styles.header}>
+         <h1>The Amazing Ocean</h1>
+      </header>
    );
 }
 
